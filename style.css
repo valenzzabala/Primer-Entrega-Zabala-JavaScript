@@ -1,0 +1,29 @@
+:root {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--bg-color);
+    --bg-color:#121113;
+    --text-color: #ffffff;
+    --text-secondary:#ffff3f;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: var(--text-secondary);
+    text-align: center;
+    font-size: 5rem;
+}
+
+p {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 2rem;
+
+}
